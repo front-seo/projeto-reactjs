@@ -1,0 +1,87 @@
+.project_card {
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.project_card h4 {
+    margin-bottom: 1.3em;
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    font-size: 1.3em;
+}
+
+.project_card p span {
+    margin-bottom: 0;
+    color: #7a7a7a;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+    
+}
+
+.category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.category_text .faturamento-web {
+    background-color: #ffaebc;
+}
+
+.category_text .desenvolvimento-web {
+    background-color: #a0e7e5;
+}
+
+.category_text .designer-web {
+    background-color: #b4f8c8;
+}
+
+.category_text .seo-web {
+    background-color: #fbe7c6;
+}
+
+.project_card_actions {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2em;
+}
+
+.project_card_actions button,
+.project_card_actions a {
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+
+}
+
+.project_card_actions svg {
+    margin-right: 0.5rem
+}
+
+.project_card_actions button:hover,
+.project_card_actions a:hover {
+    background-color: #222;
+    color: #ffbb33;
+}
